@@ -93,7 +93,7 @@ README.md                   → Project documentation
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/HSPR-PCN.git
+git clone https://github.com/khushisoni/HSPR-PCN.git
 ```
 
 2. Install dependencies
