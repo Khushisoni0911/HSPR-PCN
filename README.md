@@ -4,6 +4,16 @@ A machine learning-based routing framework for blockchain Payment Channel Networ
 
 ---
 
+## Features
+- ML-based routing decision system
+- Privacy-aware path selection
+- Incentive-driven node scoring
+- Liquidity-aware routing
+- Comparative routing evaluation
+- Visualization of routing performance
+
+---
+
 ## Results
 
 | Routing Strategy | Success Rate |
@@ -27,5 +37,48 @@ Python · NetworkX · Scikit-learn · XGBoost · Pandas · Matplotlib
 - `routing_demo_results.csv` — Output results
 - `comparison.png` — Success rate comparison graph
 
+---
+
+## How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/HSPR-PCN.git
+```
+
+### 2. Install dependencies
+
+```bash
+pip install pandas numpy matplotlib networkx scikit-learn xgboost
+```
+
+### 3. Open the notebook
+
+```bash
+jupyter notebook HSPR_PCN.ipynb
+```
+
+---
+
+## Output Graph
+
+![Comparison Graph](comparison.png)
+
+---
+
+## Future Work
+- Real-world Lightning Network simulation
+- Reinforcement learning-based routing
+- Blockchain-integrated deployment
+- Advanced privacy-preserving routing
+
+---
+
 ## Status
-Research paper — Manuscript in Preparation
+Research Paper — Manuscript in Preparation
+
+---
+
+## Author
+Khushi Soni
