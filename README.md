@@ -59,13 +59,6 @@ pip install pandas numpy matplotlib networkx scikit-learn xgboost
 jupyter notebook HSPR_PCN.ipynb
 ```
 
----
-
-## Output Graph
-
-![Comparison Graph](comparison.png)
-
----
 
 ## Future Work
 - Real-world Lightning Network simulation
