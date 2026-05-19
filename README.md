@@ -1,16 +1,60 @@
 # HSPR-PCN: Hybrid Secure Predictive Routing for Payment Channel Networks
 
-A machine learning-based routing framework for blockchain Payment Channel Networks (PCNs) that improves transaction success rate using predictive routing, liquidity management, privacy cost modeling, and incentive-based node selection.
+A machine learning-based secure routing framework for blockchain Payment Channel Networks (PCNs) that improves transaction success rate using predictive routing, liquidity-aware optimization, privacy-cost modeling, and incentive-driven node selection.
 
 ---
 
-## Features
-- ML-based routing decision system
-- Privacy-aware path selection
-- Incentive-driven node scoring
-- Liquidity-aware routing
-- Comparative routing evaluation
-- Visualization of routing performance
+## Overview
+
+Traditional routing approaches in blockchain-based Payment Channel Networks often suffer from:
+- failed transactions
+- liquidity imbalance
+- inefficient path selection
+- privacy leakage
+
+HSPR-PCN introduces a hybrid predictive routing mechanism that uses machine learning and network analytics to intelligently select optimal routing paths while improving routing efficiency and preserving privacy.
+
+---
+
+## Key Features
+
+- Machine learning-based routing decisions
+- Privacy-aware path evaluation
+- Liquidity-sensitive path optimization
+- Incentive-based node scoring
+- Comparative routing analysis
+- Transaction success prediction
+- Routing simulation framework
+
+---
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- XGBoost
+- NetworkX
+- Matplotlib
+
+---
+
+## Project Architecture
+
+```text
+Input Network Data
+        ↓
+Feature Extraction
+        ↓
+Path Scoring & Privacy Modeling
+        ↓
+Machine Learning Prediction
+        ↓
+Optimal Route Selection
+        ↓
+Routing Evaluation & Visualization
+```
 
 ---
 
@@ -22,54 +66,75 @@ A machine learning-based routing framework for blockchain Payment Channel Networ
 | Shortest Path (Dijkstra) | 84.3% |
 | Random Routing | 59.3% |
 
-**ML Improvement over baseline: 9.67%**
+### Improvement
+- ML-based routing achieved approximately **9.67% improvement** over traditional shortest-path routing.
 
 ---
 
-## Tech Stack
-Python · NetworkX · Scikit-learn · XGBoost · Pandas · Matplotlib
+## Output Visualization
+
+![Routing Comparison](comparison.png)
 
 ---
 
 ## Files
-- `HSPR_PCN.ipynb` — Main implementation notebook
-- `final_rf_model.pkl` — Trained Random Forest model
-- `routing_demo_results.csv` — Output results
-- `comparison.png` — Success rate comparison graph
+
+```text
+HSPR_PCN.ipynb              → Main implementation notebook
+comparison.png              → Routing comparison graph
+routing_demo_results.csv    → Routing simulation results
+README.md                   → Project documentation
+```
 
 ---
 
 ## How to Run
 
-### 1. Clone the repository
+1. Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/HSPR-PCN.git
 ```
 
-### 2. Install dependencies
+2. Install dependencies
 
 ```bash
-pip install pandas numpy matplotlib networkx scikit-learn xgboost
+pip install pandas numpy scikit-learn xgboost networkx matplotlib
 ```
 
-### 3. Open the notebook
+3. Open the notebook
 
 ```bash
 jupyter notebook HSPR_PCN.ipynb
 ```
 
-
-## Future Work
-- Real-world Lightning Network simulation
-- Reinforcement learning-based routing
-- Blockchain-integrated deployment
-- Advanced privacy-preserving routing
+4. Run all notebook cells
 
 ---
 
-## Status
-Research Paper — Manuscript in Preparation
+## Applications
+
+- Blockchain payment routing
+- Lightning Network optimization
+- Secure financial transaction systems
+- Privacy-preserving network routing
+- Intelligent decentralized finance systems
+
+---
+
+## Future Improvements
+
+- Reinforcement learning-based routing
+- Real-time Lightning Network integration
+- Blockchain deployment testing
+- Federated learning for decentralized routing
+- Advanced privacy-preserving mechanisms
+
+---
+
+## Research Status
+
+Research Manuscript in Preparation
 
 ---
 
